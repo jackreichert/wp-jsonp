@@ -1,7 +1,7 @@
 <?php
 /**
 * Plugin Name: another plugin
-* Plugin URI: http://www.jackreichert.com/2015/07/02/how-to-jsonp-ajax-to-ssl-in-wordpress-and-easier-way/
+* Plugin URI: http://www.jackreichert.com/2015/07/02/how-to-jsonp-ajax-to-ssl-in-wordpress-an-easier-way/
 * Description: An example of how you might use wp_jsonp.
 * Version: 0.1
 * Author: jackreichert
