@@ -2,7 +2,7 @@ if (typeof wp_jsonp === 'undefined')
 var wp_jsonp = function (event, method, params, callbackFunc) {
 	// data needed to send jsonp
 	var data = {
-		action: 'wp_jsonp',	// wp ajax action
+		action: event,	// wp ajax action
 		ajaxSSLNonce: wp_jsonp_vars.wpAJAXNonce, // nonce
 		method: method, // server has switch/case for processing
 		params: params // data to be processed
