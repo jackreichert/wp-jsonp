@@ -22,7 +22,7 @@ class Another_Plugin {
 
     // enqueue scripts
 	function plugin_scripts() {
-        wp_enqueue_script( 'wp_jsonp_call', plugins_url( '/scripts.js', __FILE__ ), array( 'wp_jsonp_script' ) );
+		wp_enqueue_script( 'wp_jsonp_call', plugins_url( '/scripts.js', __FILE__ ), array( 'wp_jsonp_script' ) );
 	}
 
     // process the ajax calls
@@ -44,9 +44,9 @@ class Another_Plugin {
                 // if you get "hello world back, then it worked"
 				$response = "Hello World";
 				break;
-            default:
-                $response = "You didn't send any methods to process your variables?!";
-                break;
+            		default:
+                		$response = "You didn't send any methods to process your variables?!";
+				break;
 		}
 
 		// response output
