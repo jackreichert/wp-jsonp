@@ -6,6 +6,6 @@ jQuery(document).ready(function ($) {
 
 	jQuery(document).ready(function (e) {
 		// make the jsonp call: ajax_action, method, variables, callback
-        wp_jsonp("wp_jsonp", "getStuff", {variable: "hello world"}, getStuff);
+        	wp_jsonp("wp_jsonp", "getStuff", {variable: "hello world"}, getStuff);
 	});
 });
