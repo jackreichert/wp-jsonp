@@ -1,7 +1,7 @@
 <?php
 /**
 * Plugin Name: WordPress JSONp Helper
-* Plugin URI: http://www.jackreichert.com/2015/07/02/how-to-jsonp-ajax-to-ssl-in-wordpress-and-easier-way/
+* Plugin URI: http://www.jackreichert.com/2015/07/02/how-to-jsonp-ajax-to-ssl-in-wordpress-an-easier-way/
 * Description: A paradigm for easy AJAX over SSL in WordPress using JSONP.
 * Version: 0.1
 * Author: jackreichert
